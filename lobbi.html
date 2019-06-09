@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="lobbi.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script src="check.js"></script>
+	<title>Room</title>
+  </head>
+
+	<body style="background:#1F2833;" onload="upload(); worker(); room(); vote(); my_game();">
+		<div class="container bla">
+			<div class="row">
+				<div class="col-sm-12 col-12 logd kartinka">
+					<img src="pics/ADMIN.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-2 col-2 logd">
+				</div>
+				<div class="col-sm-4 col-4 logd">
+					<h3 id="room_alert">Room : </h3>
+				</div>
+				<div class="col-sm-4 col-4 logd" id="Room">
+				</div>
+				<div class="col-sm-2 col-2 logd">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 col-4">
+				</div>
+				<div class="col-sm-4 col-4 players-field" id="ft_list">
+				</div>
+				<div class="col-sm-4 col-4">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-6 logd">
+					<form method="POST" action="exit.php" id="l_a">
+					</form>
+				</div>
+				<div class="col-sm-6 col-6 logd" id="start">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

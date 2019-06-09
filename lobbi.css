@@ -1,0 +1,100 @@
+.logd
+{
+	background: ;
+	text-align: center;
+}
+.bla
+{
+	background: ;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.buttons
+{
+	background: ;
+	height: 50px;
+	width: 100%;
+	border: 2px solid black;
+	color: #1F2833;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	font-weight: bold;
+}
+#room_alert
+{
+	color: #22c7e8;
+	text-align: right;
+	height: 100%;
+	width: 100%;
+}
+#number_alert
+{
+	color: #42f4bf;
+	text-align: left;
+	height: 100%;
+	width: 100%;
+}
+#Begin_but
+{
+	background: #42f4bf;
+}
+#Abort_but
+{
+	background: #fc5d5d;
+}
+.kartinka
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.players-field
+{
+	margin-top: 10px;
+	background: ;
+	margin-bottom: 20px;
+
+
+}
+.player_tab
+{
+	border: 1px solid white;
+	background: #D1C4E9;
+	display: block;
+	margin-bottom: 5px;
+	text-align: center;
+	font-weight: bold;
+	height: 30px;
+	border: 2px solid black;
+}
+.before_tab
+{
+	color: black;
+}
+
+#locrole
+{
+	margin-top: 20px;
+}
+
+#name_loc
+{
+	color: #22c7e8;
+}
+
+#role
+{
+	color: #42f4bf;
+}
+
+#timer
+{
+	color: #42f4bf;
+	margin-bottom: 20px;
+}
+#vote
+{
+	color: #22c7e8;
+}
